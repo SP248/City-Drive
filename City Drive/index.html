@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+<script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+<script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+<a-scene id = "scene" background = "color:black" inspector-plugin-recast>
+
+<a-assets>
+<img id = "sky" src = "nightsky.jpg">
+<img id = "ground" src = "pathway_baseColor.jpeg">
+</a-assets>
+
+
+<a-sky src = "#sky"></a-sky>
+
+<a-plane src = "#ground"  width = "45" height = "40" rotation = "-90 -90 0" position = "-1 .5 -19" repeat = "7 8">
+ 
+</a-plane>   
+
+
+
+
+        <a-box id = "rightstartbldng" color = "gray" position = "5 3 -1" rotation = "0 0 0" scale = "2 5 2" src = "istockphoto-1150104188-612x612.jpg"></a-box>
+
+        <a-box id="building1" color="gray" position="5 2.5 -4"
+          rotation="0 0 0" scale = "2 4 2" src = "1000_F_35038684_9fuzYsQ4EQH4Wv842eZc2Av0eY3a02Q0.jpg">
+        </a-box>
+
+        <a-box id="building2" color="gray" position="5 4 -7"
+        rotation="0 0 0" scale = "2 7 2" src = "360_F_35038696_vE5d6LaVpAh0AlR5IguDxf3JHt73KFR5.webp">
+      </a-box>
+
+      <a-box id="building3" color="gray" position="5 3 -10"
+      rotation="0 0 0" scale = "2 5 2" src = "istockphoto-1150104188-612x612.jpg">
+    </a-box>
+
+    <a-box id="building4" color="gray" position="5 5 -13"
+    rotation="0 0 0" scale = "2 9 2" src = "modern-office-skyscraper-seamless-horizontally-vertically-pattern-simple-glass-metal-concrete-hight-technology-buildings-dark-162581879.webp">
+  </a-box>
+
+  <a-box id="building 5" color="gray" position="5 2 -16"
+  rotation="0 0 0" scale = "2 3 2" src = "360_F_129313540_uEidTMaycYOoF66In4W6cuE552apMYW6.jpg">
+</a-box>
+
+<a-box id="building6" color="gray" position="5 3.5 -19"
+rotation="0 0 0" scale = "2 6 2" src = "windows-night-facade-skyscraper-seamless-600w-1498213994.webp">
+</a-box>
+
+<a-box id = "newbuild" color = "gray" position = "5 3 -22" scale = "2 5 2" rotation = "0 0 0" src = "istockphoto-1150104188-612x612.jpg"></a-box>
+
+ 
+
+
+
+
+<a-box id = "leftstartblgn" color = "gray" position = "-7 4 -1" 
+rotation = "0 0 0" scale = "2 7 2" src = "stock-photo-seamless-texture-resembling-windows-of-a-modern-skyscraper-illuminated-at-night-80091223.jpg"></a-box>
+
+  <a-box id="building7" color="gray" position="-7 5.5 -4"
+  rotation="0 0 0" scale = "2 10 2" src = "stock-photo-windows-building-front-facade-by-night-2160393401.jpg">
+</a-box>
+
+<a-box id="building8" color="gray" position="-7 2.5 -7"
+rotation="0 0 0" scale = "2 4 2" src = "stock-photo-windows-on-the-facade-of-the-building-evening-lighting-glass-facade-of-an-office-building-gold-1307830183.jpg">
+</a-box>
+
+<a-box id="building9" color="gray" position="-7 4.5 -10"
+rotation="0 0 0" scale = "2 8 2" src = "windows-night-facade-skyscraper-seamless-600w-1498213994.webp">
+</a-box>
+
+<a-box id="building10" color="gray" position="-7 3.5 -13"
+rotation="0 0 0" scale = "2 6 2" src = "fa6ae1025898ea8d68d8481fb3c58b13--cubicles-city-lights.jpg">
+</a-box>
+
+<a-box id="building11" color="gray" position="-7 2 -16"
+rotation="0 0 0" scale = "2 3 2" src = "ec2e4d8623e0fe18efdfb507e9af2aca.jpg">
+</a-box>
+
+<a-box id="building12" color="gray" position="-7 4 -19"
+rotation="0 0 0" scale = "2 7 2" src = "istockphoto-1150104188-612x612.jpg">
+</a-box>
+
+<a-box id = "newbuild2" color = "gray" position = "-7 3 -22" 
+scale = "2 5 2" rotation = "0 0 0" src = "360_F_35038696_vE5d6LaVpAh0AlR5IguDxf3JHt73KFR5.webp"></box>
+  
+
+
+
+</a-scene>
+</body>
+
+
+</html>
